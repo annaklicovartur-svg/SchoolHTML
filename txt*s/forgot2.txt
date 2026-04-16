@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое резюме</title>
+</head>
+<body>
+    <h1>На будущее:</h1>
+    <p>div/span</p>
+    <p>Для указания файла который будет обеспечивать сисетмную часть сайта мы используем тег from, а именно:</p>
+    <code>from action="" method="(get or post)"</code><br><br><hr>
+
+    <a href="#mailto">Якорь к почте</a><br>
+     <a href="#buttomofpage">Нижняя часть сайта</a>
+     <!-- Зацеп к якорю на сайте -->
+    <h1>My resume</h1>
+    <p>My name is Artur <abbr title="Russian">Annaklichov</abbr> i was born in <i>2009</i> at 9 <b>july</b></p>
+
+    <p>My hard skills:</p>
+
+    <ul>
+    <li>Im very <b><i>responsible</i></b></li>
+    <li>I have passed my English test at the <b><i>C1</i></b> level</li>
+    <li>I have learned <b><i>DRF</i></b> and now i wanna finish my Fronted course to code my own websites for the payment</li>
+    </ul>
+
+    <hr>
+
+    <p>My Achievements</p>
+
+    <ol type="I">
+        <li><b>English C1</b></li>
+        <li><b>Finished Backend</b></li>
+        <li><b>Can beat people</b></li>
+        <li><b>New type of a list font</b></li>
+    </ol>
+    <hr>
+
+    <br>
+        <a href="index.html" target="_self"/blank title="Нажми на текст">My biography</a>
+    <br>
+    <hr>
+
+    <p>My first code is</p>
+    <p><big><code>print("Hello world")</code></big></p>
+    <hr>
+    <p>The art which i made with the pre tag</p>
+    <pre>
+      /\
+     /  \
+    /____\
+    </pre>
+    <a name="mailto" href="mailto:annaklicovartur@gmail.com">Написать на почту</a>
+    <a name="buttomofpage"></a><br>
+    <!-- Якорь -->
+
+    <img src="data:image/jpeg;base64,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" 
+    width="80%" title="BMW M3 FOURTH GENETATION" alt="BMW M3">
+    <h1><b>BMW M3 Fourth GENERATION:</b></h1>
+    <p><i>Этот повелитель дорог создан для гоночной трассы. На протяжении 20 лет 3-я серия посвящает себя автоспорту. Четвертое поколение BMW M3 Coupé лишь вносит довершающие штрихи в образ совершенного автомобиля.</i></p>
+    
+    <table border="5" width="500px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Last name</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>Artur</td>
+                <td>Annaklichov</td>
+            </tr>
+            <tr>
+                <td>Artur</td>
+                <td>Annaklichov</td>
+            </tr>
+            <tr>
+                <td>Artur</td>
+                <td>Annaklichov</td>
+            </tr>
+        </tbody>
+        <tfoot align="center">
+            <tr>
+                <td><b>tfoot</b></td>
+                <td><b>tfoot</b></td>
+            </tr>
+        </tfoot>
+    </table><br>
+<hr><br>
+    <form action="" method="post">
+        <label for="user_name">Введите имя</label>
+        <input type="text" placeholder="enter name bitch" 
+         maxlength="10" name="user_name" id="user_name">
+        <!-- hidden - Поле становится невидимым -->
+        <!-- disabled - Поле становится неактивным -->
+        <!-- readonly  -->
+        <!-- value = Указываем текст который будет в строке изначально -->
+    </form><br><br>
+    <form action="">
+        <textarea placeholder="Write text" maxlength="50"></textarea><br><br>
+        <button type="reset">send</button>
+    </form><br>
+    <form>
+        <select>
+            <option disabled selected>Выборка</option>
+            <option>BMW</option>
+            <option>Audi</option>
+            <option>Mercedes</option>
+        </select>
+    </form><br>
+    <progress max="100" value="35"></progress><br><br>
+    <details>
+        <summary>Details</summary>
+        Lorem ipsum, dolor sit amet 
+        consectetur adipisicing elit. Numquam, eligendi?
+    </details>
+</body>
+</html>

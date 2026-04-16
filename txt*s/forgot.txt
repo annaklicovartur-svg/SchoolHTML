@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя биография</title>
+</head>
+<body>
+    <h1>My name is Artur</h1>
+    
+    <p>I'm trying to code my first mini website. First of all, I'm a backend developer, but I want to learn HTML to code my websites by myself.</p>
+    
+    <p>My hobbies:</p>
+    <ul> <!-- unordered list -->
+        <!-- type="circle / square" -->
+        <li>Programming</li>
+        <li>MMA fight club</li>
+        <li>Nothing else</li>
+    </ul>
+
+    <ol start="2", type="A"> <!-- ordered list -->
+        <li>Srart list <b>ol</b></li>
+        <li>Srart list <b>ol</b></li>
+        <li>Srart list <b>ol</b></li>
+        <li>Srart list <b>ol</b></li>
+    </ol>
+    
+    <p>My telegram channel with music: 
+        <a href="https://t.me/+rbCCRv-60rpiOGQ6">
+            <button>CLICK HERE</button>
+        </a>
+    </p>
+    <p><em>IM learning </em> <i>html tegs</i></p> 
+    <!-- em and i = курсив -->
+    <p><b>Second tegs b</b> <strong> and strong</strong></p>
+    <!-- b and Strong = жирный текст -->
+
+    <p>That is a <sub><em>sub</em></sub> teg</p>
+    <p>that is a <sup><em>sup</em></sup> teg</p>
+
+    QYAYBAHUANUNAANAUNAUAN<br>WQERTTWTWYYWYTQ <br><br>
+    <!-- br = позволякт разделить строку / перенсти ее вниз -->
+    ASDDDDDDDDTFFFF <hr> ZCXCXBBXBXNXNX <br><br>
+    <!-- hr = разделяет строку по горизонтальной линии -->
+
+    <abbr title="ABBR">abbr</abbr>
+    <!-- Позволяет давать подсказски к тестку при наводке -->
+    
+    <p><pre> Моноширный текст
+            соблюдает все отступы
+      /\
+     /  \
+    /____\
+    </pre></p>
+
+    <code>let x = 0;</code>
+    <!-- Позволяет выводить код в таком виде какой код есть -->
+    
+    <table border="5" width="500">
+        <thead>
+            <tr>
+                <th>Урок</th>
+                <th>Учитель</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>Алгебра</td>
+                <td>Зухра Шавквтовна</td>
+            </tr>
+            <tr>
+                <td>Русский</td>
+                <td>Айдай Канатбековна</td>
+            </tr>
+            <tr>
+                <td>ДПМ</td>
+                <td>Мудак старый</td>
+            </tr>
+            <tr>
+                <td>Кыргызский</td>
+                <td>Кенже Сука</td>
+            </tr>
+            <tr>
+                <td>Литиратура</td>
+                <td>Анара Исраиловна</td>
+            </tr>
+        </tbody>
+        <tfoot align="center">
+            <tr>
+                <td><b>Уроков: 6</b></td>
+                <td><b>Учителей: 6</b></td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
