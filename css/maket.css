@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1e1d1d;
+}
+
+
+.header {
+    background: #1e1d1d;
+    width: 100%;
+    height: 67px;
+    line-height: 35px;
+}
+
+.castaway {
+    color: aliceblue;
+    font-family: "Sekuya", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    bottom: 45px;
+    left: 18px;
+}   
+
+.right_header {
+    font-style: none;
+    display: block;
+    float: right;
+    width: auto;
+}
+
+.right_header li {
+    color: #fafafa;
+    font-style: none;
+    display: inline;
+    font-size: 17px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 68px;
+    right: 20px;
+}
+
+#home {
+    color: #118DA8;
+}
+
+.right_header li:hover {
+    cursor: pointer;
+}
+
+.right_header li:not(:last-of-type) {
+    margin-right: 27px;
+}
+
+
+.imageniga img{
+    width: 650px;
+    height: 873px;
+    margin-left: 30px;
+    float: left;
+}
+
+.text_nigabro {
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    color: #fafafa;
+    font-size: 60px;
+    position: relative;
+    right: 400px;
+    top: 280px;
+    
+}
+
+.text_nigabro b {
+    font-family: "Sekuya", system-ui;
+    font-weight: 700;
+}
+
+.listen_on {
+    color: #fafafa;
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    top: 400px;
+    left: 45px;
+}
+
+.images {
+    display: inline;
+}
+
+.images li {
+    font-style: none;
+    display: inline;
+    position: relative;
+    top: 420px;
+    left: 35px;
+}
+
+.images li:not(:last-of-type) {
+    margin: 7px;
+}
+
+.Latest_episodes {
+    color: #fafafa;
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-size: 60px;
+    position: relative;
+    top: 650px;
+    right: 650px;
+}
+
+.button_view {
+    color: #fafafa;
+    margin-top: 600px;
+    margin-left: 1095px;
+    background-color: #118DA8;
+    width: 178px;
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.button_view ul li.button_view {
+    transition: all 500ms ease;
+}

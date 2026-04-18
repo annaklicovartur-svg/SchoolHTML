@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+}
+
+body {
+    height: auto;
+    background-image: url('https://assets.monica.im/tools-web/_next/static/media/pc_upscale.99caadae.webp');    
+    background-repeat: no-repeat;
+    background-position: 50% 50% ;
+    background-size: 670px 360px;
+}
+
+
+
+#header, #footer {
+    width: 100% ;
+    height: 40px;
+    text-align: center;
+    border-bottom: 2px solid silver;
+    background: #333;
+    color: white;
+    line-height: 40px;
+    float: left;
+}
+
+#footer {
+    margin-bottom: 0%;
+    margin-top: 50px;
+    border-bottom: 0;
+    border-top: 2px solid silver;
+    position: relative;
+    top: 50px;
+}
+
+#main {
+    width: 50%;
+    margin-left: 10%;
+    background: #a28fa2;
+    border: 1px solid silver;
+    padding: 20px 2.5%;
+    float: left;
+    z-index: 1;
+    position: relative;
+    top: 15px;
+}
+
+/* 100 - (50 + 10 + 5) */
+#aside {
+    width: 20%;
+    padding: 20px, 2.5%;
+    background: #a28fa2;
+    border: 1px solid silver;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+    top: 15px;
+    bottom: -10px;
+    z-index: 0;
+}
+
+#nav {
+    font-style: none;
+    display: block;
+    float: left;
+    width: auto;
+    margin: 20px;
+    text-align: center;
+}
+
+
+#nav li:not(:last-of-type) {
+/* Ко всем кроме последнего */
+    margin-right: 20px;
+}
+
+
+#nav li:hover {
+    color: #fafafa;
+    background: #333;
+}
+
+
+#nav li {
+    /* border-radius: 10%; */
+    border-radius: 10%;
+    color: #000000;
+    background: #fafafa;
+    margin: 20px;
+    display: inline;
+    position: relative;
+    top: -0px;
+    left: 15px;
+    cursor: pointer;
+    
+}
+
+#some_block {
+    background: rgb(41, 30, 30);
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50% ;
+    position: fixed;
+    left: 20px;
+    top: 9px;
+}
+
